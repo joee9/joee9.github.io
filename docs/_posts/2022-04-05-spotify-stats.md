@@ -20,3 +20,11 @@ To effectively use this program, there are a few prerequisites. First, you will 
 {% highlight bash %}
 wget ANACONDA-URL
 {% endhighlight %}
+where `ANACONDA-URL` is the URL to the installation script taken from the above link. Run the 
+
+
+
+# Song Database
+
+Using the Spotify API, we can only get a user's most recently played 50 songs. This is an issue if we want to be able to give a user the full image of their listening history. Therefore, we need to write a script that will constantly scrape the Spotify API recently played list and add new songs to a database. 
+
